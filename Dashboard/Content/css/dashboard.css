@@ -1,0 +1,248 @@
+﻿/* Dashboard Styles */
+/* panel of tiles */
+.dashboard-panel {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+}
+/* tile */
+.tile {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  margin-top: 0;
+  padding: 0 /* 16px */;
+  background-color: #DDDDDD;
+  color: white;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+/* 1x1 tile */
+.tile_1_1 {
+  width: 200px !important;
+  height: 200px !important;
+  max-width: 200px !important;
+  max-height: 200px !important;
+}
+/* 2x1 tile*/
+.tile_2_1 {
+  width: 416px !important;
+  height: 200px !important;
+  max-width: 416px !important;
+  max-height: 200px !important;
+}
+/* 1x2 tile */
+.tile_1_2 {
+  width: 200px !important;
+  height: 420px !important;
+  max-width: 200px !important;
+  max-height: 420px !important;
+}
+/* 2x2 tile */
+.tile_2_2 {
+  width: 416px !important;
+  height: 420px !important;
+  max-width: 416px !important;
+  max-height: 420px !important;
+}
+/* tile colors */
+.tile-gray {
+  background-color: #DDDDDD !important;
+  color: black !important;
+}
+.tile-red {
+  background-color: #E60017 !important;
+}
+.tile-orange {
+  background-color: #DB552C !important;
+}
+.tile-blue {
+  background-color: #009CCC !important;
+}
+.tile-green {
+  background-color: #339947 !important;
+}
+.tile-yellow {
+  background-color: #FBFD52 !important;
+  color: black !important;
+}
+.tile-purple {
+  background-color: #5C197B !important;
+}
+.tile-black {
+  background-color: #000000 !important;
+}
+.tile-darkgray {
+  background-color: #666666 !important;
+  color: white !important;
+}
+.tile-darkblue {
+  background-color: #292e6b !important;
+  color: white !important;
+}
+.tile-darkgreen {
+  background-color: #00643a !important;
+  color: white !important;
+}
+.tile-lightorange {
+  background-color: #fbbc3d !important;
+  color: black !important;
+}
+.tile-darkpurple {
+  background-color: #7f1725 !important;
+  color: white !important;
+}
+.tile-darkpink {
+  background-color: #ec008c !important;
+  color: white !important;
+}
+.tile-white {
+  background-color: #ffffff !important;
+  color: black !important;
+}
+.tile-mediumblue {
+  background-color: #007acc !important;
+  color: black !important;
+}
+.tile-lightblue {
+  background-color: #c9e7e7 !important;
+  color: black !important;
+}
+.tile-lightgreen {
+  background-color: #a7d050 !important;
+  color: black !important;
+}
+.tile-pink {
+  background-color: #f599d1 !important;
+  color: black !important;
+}
+.tile-lightpurple {
+  background-color: #B784AB !important;
+  color: black !important;
+}
+.tile-container {
+  display: inline-block;
+}
+.hovermenu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  text-align: center;
+  opacity: 0;
+  /* remove while debugging iPad tile menu */
+}
+.hovermenu:hover {
+  opacity: 1;
+}
+.bigtext {
+  font-size: 72px;
+}
+/* table chart*/
+.tableChartCell {
+  color: black;
+}
+/* table tile */
+th {
+  white-space: nowrap;
+}
+.config-td {
+  vertical-align: middle;
+}
+.config-input {
+  vertical-align: middle;
+  min-height: 24px;
+}
+table {
+  border-spacing: 16px 11px !important;
+  border-collapse: separate !important;
+}
+.tile table {
+  height: 100%;
+  width: 100%;
+  border-spacing: 0 !important;
+}
+.tile-column {
+  width: 200px;
+}
+.tile thead,
+.tile tbody {
+  display: block;
+}
+.tile tbody {
+  color: black;
+  background-color: white;
+  height: 100%;
+  overflow-y: auto;
+  /* vertical scroll when needed */
+  overflow-x: auto;
+  /* horizontal scroll when needed */
+  font-size: 12px;
+}
+.tile td,
+.tile th {
+  padding: 8px;
+}
+.tile tr {
+  width: 100%;
+}
+.tile tr:nth-child(odd) {
+  background-color: #EEEEEE;
+}
+td {
+  vertical-align: top;
+  white-space: nowrap;
+}
+.tile td:last-child {
+  width: 100%;
+}
+.tile .td-right {
+  text-align: right;
+  padding-right: 8px;
+}
+#contextMenu {
+  position: absolute;
+  display: none;
+}
+.config-color-black {
+  background-color: black;
+  color: white;
+}
+.config-color-blue {
+  background-color: blue;
+  color: white;
+}
+.config-color-cyan {
+  background-color: cyan;
+  color: black;
+}
+.config-color-gray {
+  background-color: gray;
+  color: black;
+}
+.config-color-green {
+  background-color: green;
+  color: white;
+}
+.config-color-orange {
+  background-color: orange;
+  color: black;
+}
+.config-color-purple {
+  background-color: purple;
+  color: white;
+}
+.config-color-red {
+  background-color: red;
+  color: white;
+}
+.config-color-yellow {
+  background-color: yellow;
+  color: black;
+}
+/*# sourceMappingURL=dashboard.css.map */
